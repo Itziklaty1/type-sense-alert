@@ -15,7 +15,8 @@ const TestingArea = () => {
     { lang: 'Russian', text: 'Привет мир! Это пример текста на русском языке.' },
     { lang: 'Chinese', text: '你好世界！这是中文示例文本。' },
     { lang: 'Japanese', text: 'こんにちは世界！これは日本語のサンプルテキストです。' },
-    { lang: 'Arabic', text: 'مرحبا بالعالم! هذا نص تجريبي باللغة العربية.' }
+    { lang: 'Arabic', text: 'مرحبا بالعالم! هذا نص تجريبي باللغة العربية.' },
+    { lang: 'Hebrew', text: 'שלום עולם! זה טקסט לדוגמה בעברית.' }
   ];
 
   const handleSampleText = (text: string) => {

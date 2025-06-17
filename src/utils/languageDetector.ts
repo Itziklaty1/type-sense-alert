@@ -79,6 +79,13 @@ const languagePatterns: LanguagePattern[] = [
     unicodeRanges: [[1536, 1791]], // Arabic
     commonPatterns: ['ال', 'في', 'من', 'إلى', 'على', 'هذا', 'هذه', 'التي', 'الذي', 'أن'],
     commonWords: ['في', 'من', 'إلى', 'على', 'هذا', 'هذه', 'التي', 'الذي', 'أن', 'كان']
+  },
+  {
+    code: 'he',
+    name: 'Hebrew',
+    unicodeRanges: [[1424, 1535]], // Hebrew
+    commonPatterns: ['של', 'את', 'על', 'לא', 'אל', 'זה', 'כל', 'או', 'לו', 'בו'],
+    commonWords: ['של', 'את', 'על', 'לא', 'אל', 'זה', 'כל', 'או', 'לו', 'בו', 'הוא', 'היא', 'אני', 'מה']
   }
 ];
 
